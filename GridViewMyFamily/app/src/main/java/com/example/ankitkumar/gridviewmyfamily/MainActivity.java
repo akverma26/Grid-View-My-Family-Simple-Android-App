@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void open(View view){
-        String id = view.getResources().getResourceEntryName(view.getId());
-        int index = getResources().getIdentifier(id,"drawable","com.example.ankitkumar.gridviewmyfamily");
+        String id = view.getResources().getResourceEntryName(view.getId()); //Returns Name/Id String of the View getId() is int value
+        int index = getResources().getIdentifier(id,"drawable","com.example.ankitkumar.gridviewmyfamily"); //Id integer value of a Resource find by that Name String
         openImage(index);
     }
 
