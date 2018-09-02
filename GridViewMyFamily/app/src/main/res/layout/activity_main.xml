@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/papa"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="open"
+            android:text="Papa"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mummy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/colorAccent"
+            android:onClick="open"
+            android:text="Mummy"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="@color/colorAccent"
+            android:onClick="open"
+            android:text="Bai"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bunny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="open"
+            android:text="BANNI"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/patni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="open"
+            android:text="Patni G"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="@color/colorAccent"
+            android:onClick="open"
+            android:text="Main Hoon"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:background="@color/colorAccent"
+            android:onClick="open"
+            android:text="TOM"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/jerrry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="open"
+            android:text="Jerry"
+            android:textColor="@android:color/background_light"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="close"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/me" />
+
+</android.support.constraint.ConstraintLayout>
